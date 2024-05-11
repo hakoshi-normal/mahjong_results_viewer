@@ -223,6 +223,7 @@ body:after {
     z-index: -1;
     color: white;
     font-family: "GenEiPOP";
+    border-radius: 5px;
     font-size: 40px;
     text-align: center;
     position: absolute;
