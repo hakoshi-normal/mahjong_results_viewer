@@ -113,7 +113,7 @@ body:after {
 
 
 .player_field {
-    background-color: lightgreen;
+    background-color: rgba(144, 238, 144, 0.514);
     width: 460px;
     height: 260px;
     border-radius: 20px;
