@@ -15,7 +15,7 @@ function getinfo(values) { // set spreadsheet values
     let gameinfo = {};
     let gamename = "";
     for (let i = 0; i < values.length; i++) {
-        if (i < 2 || values[i].length == 0) { continue; };
+        if (i < 2 || values[i].length == 0 || values[i].filter(n => n === "").length > 3) { continue; };
         if (values[i][0] !== '') {
             gameinfo = {};
             gamename = values[i][0];
