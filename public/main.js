@@ -93,7 +93,7 @@ function generate_html(gameinfos) {
                             <img class="icon" src="${result.img_link}">
                             <div class="player_result_field player_result_text">
                                 持ち点 :&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;和了回数 :<br><br>
-                                31牌数:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;31牌刻子:
+                                31牌数:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;31暗刻槓:
                                 <div class="total_score_label">total</div>
                                 <div class="info_text score_text">${result.score.toLocaleString()}</div>
                                 <div class="info_text win_text">${result.win}</div>
