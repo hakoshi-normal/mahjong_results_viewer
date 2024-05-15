@@ -11,6 +11,8 @@ Deno.serve(async (req) => {
   const sheet_name = Deno.env.get("SHEET_NAME");
   const api_key = Deno.env.get("API_KEY");
 
+  console.log(sheet_id, sheet_name, api_key);
+
   const json = fetch(
     `https://sheets.googleapis.com/v4/spreadsheets/${sheet_id}/values/${sheet_name}?key=${api_key}`,
   );
